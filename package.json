@@ -1,0 +1,27 @@
+{
+  "name": "potion-nodejs-example",
+  "description": "A simple social network built with NodeJS using Potion Social APIs",
+  "version": "1.0.0",
+  "private": true,
+  "author": "Potion Social",
+  "license": "MIT",
+  "scripts": {
+    "start": "node ./bin/www",
+    "potion": "nodemon --exec \"npm run start\""
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "dotenv": "^8.2.0",
+    "ejs": "~2.6.1",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "moment": "^2.24.0",
+    "morgan": "~1.9.1",
+    "nl2br": "0.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
