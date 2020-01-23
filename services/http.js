@@ -2,8 +2,6 @@ var https = require("https");
 var axios = require("axios");
 var env = require("./../config");
 
-console.log("env", env);
-
 module.exports = class HttpService {
   constructor() {
     this.request = axios.create(this.setConfig());
@@ -71,24 +69,5 @@ module.exports = class HttpService {
     } catch (error) {
       return { error: error.response.data, status: error.response.status };
     }
-  }
-
-  getStatuses(params) {
-    return this.get("/statuses?" + params);
-  }
-  postStatus(params) {
-    return this.post("/statuses", params);
-  }
-  deleteStatus(id) {
-    return this.delete("/statuses/" + id);
-  }
-  likeStatus(id, params) {
-    return this.put("/statuses/" + id + "/like?" + params);
-  }
-  unlikeStatus(id, params) {
-    return this.put("/statuses/" + id + "/unlike?" + params);
-  }
-  getUsers() {
-    return this.get("/users");
   }
 };
