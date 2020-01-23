@@ -8,7 +8,7 @@ This example built with Node.js, shows you how you can use [Potion Social API](h
 
 ## Configure
 
-Open `.example.env` and fill it with your Potion Social Credentials, if you do not own credentials, create a free account on [Potion Social API Builder](https://api.potion.social/ "Potion Social API Builder").
+Open `example.env` and fill it with your Potion Social Credentials, if you do not own credentials, create a free account on [Potion Social API Builder](https://api.potion.social/ "Potion Social API Builder").
 
 Once done, rename the file to `.env` and run the app.
 
