@@ -157,6 +157,7 @@ jQuery.each(["put", "delete"], function(i, method) {
         return user.id === userID;
       });
       setUser(selectedUser);
+      getStatuses();
     }
   }
 

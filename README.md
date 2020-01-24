@@ -18,7 +18,7 @@ NODE_ENV="development"
 NODE_PORT=3000
 
 # Potion Social API config
-POTION_API_URL="https://mynetwork.potion.local/public-api/v1"
+POTION_API_URL="https://mynetwork.potion.social"
 POTION_API_KEY="982Y5kshdbflKHLKD-DHfsjf"
 POTION_API_SECRET="bxfMKJHFShjdkhè8ukhj"
 ```

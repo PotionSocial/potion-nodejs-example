@@ -9,7 +9,7 @@ module.exports = class HttpService {
 
   setConfig() {
     const defaultConfig = {
-      baseURL: env.POTION_API_URL,
+      baseURL: env.POTION_API_URL + "/public-api/v1",
       headers: {
         common: {
           "Api-Key": env.POTION_API_KEY,
